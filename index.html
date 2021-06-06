@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+
+    <head>
+        <meta charset="utf-8"/>
+        <link href="style.css" rel="stylesheet"/>
+        <title>Etch-a-Sketch</title>
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">    </head>
+
+
+    <body>
+        <h2>Etch-a-Sketch</h2>
+        <div class="container">
+            <div class="options">
+                <div class="slidecontainer">
+                    <p><span id="value"></span></p>
+                    <input type="range" min="1" max="36" value="8" class="slider" id="gridRange">
+                </div>
+                <button id="clear_btn">clear</button>
+                <button id="eraser">eraser</button>
+                <input type="color" value="#FFAFAA" id="input-color">
+            </div>
+            <div id="board">
+                
+            </div>
+        </div>
+    </body>
+
+    <script src="script.js"></script>
+
+</html>

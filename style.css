@@ -1,0 +1,50 @@
+#board {
+    display: grid;
+    padding: 0;
+    margin: 0;
+    width: 800px;
+    height: 800px;
+    border: solid 1px gray;
+}
+
+.container {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    gap: 12px
+}
+
+.options {
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.slidecontainer {
+    display:flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#input-color {
+    border : solid 0px;
+}
+
+h2 {
+    text-align: center;
+    font-family: 'Indie Flower', cursive;
+    font-size: 40px;
+}
+
+#input-color {
+    display:flex;
+    align-items: center;
+    background-color: white;
+}
